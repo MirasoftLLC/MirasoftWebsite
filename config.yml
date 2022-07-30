@@ -1,0 +1,117 @@
+baseURL: https://mirasoft.us/
+languageCode: en-us
+title: Mirasoft
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+disableXML: true
+minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Mirasoft
+  description: "Mirasoft is a software development company that specializes in web development and mobile development."
+  keywords: [Mirasoft, Tailor]
+  author: ["Leonardo Atalla", "Mirasoft"]
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "https://mirasoft.us/static/favicon.ico"
+    favicon16x16: "https://mirasoft.us/static/favicon16x16.ico"
+    favicon32x32: "https://mirasoft.us/static/favicon32x32.ico"
+    apple_touch_icon: "https://mirasoft.us/static/apple-touch-icon.png"
+    safari_pinned_tab: "https://mirasoft.us/static/safari-pinned-tab.svg"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Mirasoft LLC
+    subtitle: "Solving problems with software since 2022"
+    imageUrl: /logo.png
+    imageWidth: 128
+    imageHeight: 128
+    imageTitle: logo
+    #buttons:
+    #  - name: Posts
+    #    url: posts
+    #  - name: Tags
+    #    url: tags
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/MirasoftLLC"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/MirasoftLLC/MirasoftWebsite/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+#menu:
+#  main:
+#    - identifier: categories
+#      name: categories
+#      url: /categories/
+#      weight: 10
+#    - identifier: tags
+#      name: tags
+#      url: /tags/
+#      weight: 20
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+
