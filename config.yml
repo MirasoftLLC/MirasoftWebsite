@@ -43,11 +43,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://mirasoft.us/static/favicon.ico"
-    favicon16x16: "https://mirasoft.us/static/favicon16x16.ico"
-    favicon32x32: "https://mirasoft.us/static/favicon32x32.ico"
-    apple_touch_icon: "https://mirasoft.us/static/apple-touch-icon.png"
-    safari_pinned_tab: "https://mirasoft.us/static/safari-pinned-tab.svg"
+    favicon: /favicon.ico
+    favicon16x16: /favicon16x16.ico
+    favicon32x32: /favicon32x32.ico
+    apple_touch_icon: /apple-touch-icon.png
+    safari_pinned_tab: /safari-pinned-tab.svg
 
   label:
     text: "Home"
